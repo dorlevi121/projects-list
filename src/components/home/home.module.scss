@@ -1,0 +1,41 @@
+.Header {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+
+  & h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+
+    & span {
+      color: #b50d10;
+    }
+  }
+  & p {
+    font-size: 2rem;
+  }
+}
+
+.Container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.Language {
+  position: absolute;
+  margin-left: 20%;
+  & span {
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+    &:hover {
+      color: #b50d10;
+    }
+  }
+}
