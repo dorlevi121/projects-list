@@ -30,15 +30,24 @@ export const PROJECTS = [
     },
 
     {
-        id: 2,
-        title: "Rock Paper Scissors Game",
-        technology: ['Vanilla JS'],
-        desc: "This is a project example of the game 'Rock Paper Scissors'.",
-        img: 'https://user-images.githubusercontent.com/30637457/55686720-6ad28680-596d-11e9-94fd-d0a895bdcb55.jpg',
-        github: 'https://github.com/dorlevi121/rock-paper-scissors-game',
-        url: ''
+        id: 5,
+        title: "Advanced CSS Project",
+        technology: ['HTML', 'SASS', 'CSS'],
+        desc: "Landing page for traveling company. The project included animation and advanced CSS features.",
+        img: 'http://up419.siz.co.il/up2/jhlwycdynjzj.jpg',
+        github: 'https://github.com/dorlevi121/dorlevi121.github.io',
+        url: 'https://dorlevi121.github.io/'
     },
 
+    {
+        id: 5,
+        title: "Landing Page",
+        technology: ['HTML', 'SASS', 'CSS'],
+        desc: "Landing page to a technology company. The website supports 2 languages and advanced CSS.",
+        img: 'http://up419.siz.co.il/up2/ztu4utyy5owa.png',
+        github: 'https://github.com/dorlevi121/dorlevi121.github.io',
+        url: 'https://softgame.netlify.app/'
+    },
 
 
     {
@@ -52,15 +61,6 @@ export const PROJECTS = [
     },
 
     {
-        id: 5,
-        title: "Advanced CSS Project",
-        technology: ['HTML', 'SASS', 'CSS'],
-        desc: "Landing page for traveling company. The project included animation and advanced CSS features.",
-        img: 'http://up419.siz.co.il/up2/jhlwycdynjzj.jpg',
-        github: 'https://github.com/dorlevi121/dorlevi121.github.io',
-        url: 'https://dorlevi121.github.io/'
-    },
-    {
         id: 0,
         title: "feedME",
         technology: ['Android', 'Database'],
@@ -69,13 +69,14 @@ export const PROJECTS = [
         github: 'https://github.com/dorlevi121/feedME-Android-App',
         url: ''
     },
+
     {
-        id: 6,
-        title: "Tic Tac Toe Game ",
-        technology: ['ReactJS', 'HTML', 'CSS'],
-        desc: "I implemented all the rules of the game, redo and undo options.",
-        img: 'https://camo.githubusercontent.com/fbfaa3e4e06a459b8e996ef9d45cedff3109362b/687474703a2f2f692e7069636173696f6e2e636f6d2f70696338392f38383037326162636133336636656561653034363438323363633432666132652e676966',
-        github: 'https://github.com/dorlevi121/tic-tac-toe',
+        id: 2,
+        title: "Rock Paper Scissors Game",
+        technology: ['Vanilla JS'],
+        desc: "This is a project example of the game 'Rock Paper Scissors'.",
+        img: 'https://user-images.githubusercontent.com/30637457/55686720-6ad28680-596d-11e9-94fd-d0a895bdcb55.jpg',
+        github: 'https://github.com/dorlevi121/rock-paper-scissors-game',
         url: ''
     }
 ]
